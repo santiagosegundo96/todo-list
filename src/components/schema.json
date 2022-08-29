@@ -1,0 +1,14 @@
+{
+    "type": "object",
+    "title": "Agregar Tarea",
+    "properties": {
+        "nombre": {
+            "type": "string",
+            "title": "Nombre Tarea",
+            "pattern": "[a-zA-Z]+"
+        }
+    },
+    "required": [
+        "nombre"
+    ] 
+}
