@@ -21,10 +21,10 @@ jobs:
     - run: npm install --force
     
     - name: Prettier
-      run: npm --no-install prettier --check .
+      run: npx --no-install prettier --check .
     
     - name: ESLint
-      run: npm --no-install eslint .
+      run: npx --no-install eslint .
     
     - run: npm run build --if-present
     - run: npm test -- --coverage --passWithNoTests
