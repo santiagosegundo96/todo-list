@@ -24,7 +24,7 @@ jobs:
     - run: npm install --force
     
     - name: Run Linters
-      uses: wearerequired/lint-action@v3
+      uses: wearerequired/lint-action@v2
       with:
         prettier: true
         eslint: true
